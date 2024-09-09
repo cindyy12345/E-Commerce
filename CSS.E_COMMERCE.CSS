@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'darling';
+    src: url('Choco\ Shake.otf');
+}
+*{
+ box-sizing: border-box;
+}
+   
+body{
+  background-color: rgba(248, 246, 247, 0.962);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+.navbar{
+    margin: 0px;
+    padding: 10px;
+    background: rgb(27, 41, 50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-item {
+    font-size: 25px;
+}
+
+.logo{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'darling';
+}
+.tombol{
+    color: white;
+}
+.menu{
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.menu li{
+    padding-left: 0;
+    margin-right: 10px;
+}
+.menu li a{
+    color: rgb(245, 242, 242);
+    text-decoration: none;
+    display: inline-block;
+}
+.menu li a:hover {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.hero {
+   background-image: url("bgrnd\ 1.jpeg");
+   height: 620PX;
+   padding: 100px 20px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.hero p{
+    font-size: 40px;
+  margin-bottom: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.main-konten .title{
+    font-size: 90px;
+    text-align: center;
+}
+.product-img{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+    padding-right: 13rem;
+}
+.grid-item{
+    width: 20px;
+} 
+.grid-item img{
+    width: 200px;
+}
+.tentang-kami{
+    margin: 300px;
+    border: 2px solid rgb(27, 41, 50);
+    /* background-color: rgb(27, 41, 50); */
+    padding: 20px; 
+    color: rgb(0, 0, 0);   
+}
+
+.product-img .grid-item .original-price {
+    text-decoration: line-through;
+}
+.product-img .grid-item h3{
+    font-size: 25px;
+}
+.product-img .grid-item p{
+    font-size: 16px;
+}
+.tentang-product p{
+    font-size: 40px;
+    text-align: center;
+}
+.contact-us{
+    text-align: center;
+    font-size: 25px;
+    margin: 100px;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-img{
+    text-align: center;
+}
+.visi-misi{
+    display: block;
+    justify-content: space-around;
+}
+.visi{
+    display:flex;
+   border: 2px solid rgb(27, 41, 50);
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.visi-text {
+    text-align: center;
+    border: 5px solid rgb(35, 32, 32);
+    font-size: 20px;
+
+}
+.visi-img img{
+    width: 900px;
+    height: 400px;
+}
+.misi {
+    display: flex;
+   border: 2px solid rgb(27, 41, 50);
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.misi-text {
+    text-align: center;
+    border: 5px solid rgb(35, 32, 32);
+    font-size: 17px;
+}
+.misi-img img{
+    width: 900px;
+    height: 400px;
+}

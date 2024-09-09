@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+    .navbar{
+        padding: 0;
+    }
+    .navbar-item{
+        font-size: 20px;
+    }
+    .tentang-kami{
+     margin: 100px;
+    }
+    .visi-text{
+        border: 2px solid rgb(35, 32, 32);
+        font-size: 15px;
+    }
+    .visi-img img{
+        width: 250px;
+        height: 100px;
+    }
+    .misi-text {
+        border: 2px solid rgb(35, 32, 32);
+        font-size: 10px;
+    }
+    .misi-img img{
+        width: 200px;
+        height: 100px;
+    }
+    .product-img{
+        gap: 15rem;
+    }
+    
+}
+@media (max-width: 425px) {
+.product-img{
+    gap: 15rem;
+}
+.navbar{
+    padding: 0;
+}
+.visi-img img{
+    width: 120px;
+    height: 80px;
+}
+.visi-text {
+    border: 2px solid rgb(35, 32, 32);
+    font-size: 7px;
+}
+.misi-text {
+    border: 2px solid rgb(35, 32, 32);
+    font-size: 7px;
+}
+}
